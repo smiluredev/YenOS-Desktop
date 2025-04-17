@@ -1,4 +1,4 @@
-**¥enOS Desktop** is a Remaster of Slax Linux, created as a portfolio project for fun and learning.
+**¥enOS Desktop** is a Remix of Slax Linux, created as a portfolio project for fun and learning.
 
 **Installation Guide (Slax-style):**
 
