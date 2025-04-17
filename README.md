@@ -60,8 +60,6 @@ Follow these steps to install and run **¥enOS** on your Android device using **
    wget https://github.com/smiluredev/YenOS-Desktop/releases/download/Release/YenOS-Release-1.iso
    ```
 
-   **Replace the link above with the actual link to your **¥enOS** ISO or files.**
-
 2. Create a directory to prepare **¥enOS**:
 
    ```bash
@@ -113,8 +111,6 @@ For installing **¥enOS** on a desktop or laptop using the **Slax** method, you 
    ```bash
    wget https://github.com/smiluredev/YenOS-Desktop/releases/download/Release/YenOS-Release-1.iso
    ```
-
-   **Replace the link above with the actual link to your **¥enOS** ISO file.**
 
 #### **Step 2: Prepare the USB Drive**
 
