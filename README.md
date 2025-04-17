@@ -2,6 +2,8 @@
 
 **Installation Guide (Slax-style):**
 
+- **Download The ISO File On Releases Page**
+
 - **USB Installation:**
   1. Extract the contents of the ISO to a USB drive formatted as FAT32.  
   2. On Windows, run `boot\bootinst.bat` as administrator.  
