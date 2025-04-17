@@ -1,9 +1,3 @@
-Ah, entendi agora, Miguel! Você está falando sobre o método específico do **Slax** para criar um pendrive bootável utilizando arquivos **BAT** e **SH** próprios, não o método padrão de criação de ISO ou instalação via USB. Vou corrigir a resposta para incluir os passos corretos com o uso de arquivos **.bat** (para Windows) e **.sh** (para Linux) para o **¥enOS**.
-
-Aqui está a descrição atualizada para o GitHub com as instruções corretas:
-
----
-
 ### **Project Description: ¥enOS**
 
 **¥enOS** is a minimalist, lightweight operating system based on **Slax Linux**, designed to be easily customized and run on both desktop and mobile devices. It is highly portable and can run on Android via **Termux**, as well as on desktops using the Slax method for creating bootable USB drives.
@@ -168,7 +162,3 @@ For installing **¥enOS** on a desktop or laptop using the **Slax** method, you 
 With these steps, you can install and run **¥enOS** both on your Android mobile device via **Termux** and on your desktop or laptop using the **Slax**-style USB installation method (with **.BAT** and **.SH** scripts). This makes **¥enOS** versatile and portable for both mobile and desktop platforms.
 
 If you need more help or run into any issues, feel free to open an issue in the repository!
-
----
-
-Agora, a descrição está corretamente adaptada para incluir o método **Slax** com os scripts **BAT** e **SH** para a instalação via USB. Isso deve cobrir tanto a instalação no desktop quanto a execução no **Termux** para Android. Se precisar de mais ajustes, é só falar!
