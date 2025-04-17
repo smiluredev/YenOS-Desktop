@@ -1,8 +1,14 @@
+Ah, entendi agora, Miguel! Você está falando sobre o método específico do **Slax** para criar um pendrive bootável utilizando arquivos **BAT** e **SH** próprios, não o método padrão de criação de ISO ou instalação via USB. Vou corrigir a resposta para incluir os passos corretos com o uso de arquivos **.bat** (para Windows) e **.sh** (para Linux) para o **¥enOS**.
+
+Aqui está a descrição atualizada para o GitHub com as instruções corretas:
+
+---
+
 ### **Project Description: ¥enOS**
 
-**¥enOS** is a minimalist, lightweight operating system based on Slax Linux, designed to be easily customized and run on both desktop and mobile devices. It is highly portable and runs smoothly on Android via **Termux**, without the need for root access. 
+**¥enOS** is a minimalist, lightweight operating system based on **Slax Linux**, designed to be easily customized and run on both desktop and mobile devices. It is highly portable and can run on Android via **Termux**, as well as on desktops using the Slax method for creating bootable USB drives.
 
-This project allows you to experience a complete Linux environment with both graphical and command-line interfaces, on devices such as Android, and also works as a desktop system for more traditional use.
+This project allows you to experience a full Linux environment with both graphical and command-line interfaces on mobile devices like Android, and also works as a desktop system.
 
 ---
 
@@ -94,24 +100,79 @@ Follow these steps to install and run **¥enOS** on your Android device using **
 
    This will launch **Xorg** and **Fluxbox** within **X11**, providing a graphical interface on your Android device.
 
-#### **Step 7: Using ¥enOS**
-
-You can now use **¥enOS** directly on your Android device! Inside the proot environment, you can run Linux commands and use the system just as you would on a desktop system, but on your mobile device with a graphical interface.
-
 ---
 
-### **How to Install ¥enOS on Desktop**
+### **How to Install ¥enOS on Desktop via USB (Slax Method with .BAT and .SH Files)**
 
-For desktop installation, follow the standard installation steps for **¥enOS** on a regular PC. You can either create a bootable USB drive or use virtualization tools to run the system.
+For installing **¥enOS** on a desktop or laptop using the **Slax** method, you can use the provided **.BAT** (for Windows) and **.SH** (for Linux) scripts for creating a bootable USB.
 
-1. Download the **¥enOS** ISO file.
-2. Create a bootable USB using tools like **Rufus** or **Balena Etcher**.
-3. Boot from the USB drive and follow the installation instructions to set up **¥enOS** on your desktop or laptop.
+#### **Step 1: Download the ¥enOS ISO**
+
+1. Download the **¥enOS** ISO file from the repository or another location:
+
+   ```bash
+   wget https://github.com/smiluredev/YenOS-Desktop/releases/download/Release/YenOS-Release-1.iso
+   ```
+
+   **Replace the link above with the actual link to your **¥enOS** ISO file.**
+
+#### **Step 2: Prepare the USB Drive**
+
+1. Plug in your USB drive.
+2. Use a tool like **Rufus** (on Windows) or **dd** (on Linux) to format and prepare the USB drive for installation. Ensure that the USB drive is at least **4GB** in size and has no important data, as it will be formatted.
+
+#### **Step 3: Use the BAT/SH Files to Create a Bootable USB**
+
+**For Windows:**
+
+1. Download the **Windows BAT script** (e.g., `install_yenos.bat`) from the repository.
+2. Double-click the script to run it. This script will:
+   - Format the USB drive.
+   - Copy the **¥enOS** ISO to the USB drive.
+   - Set up the USB as a bootable device.
+
+**For Linux:**
+
+1. Download the **Linux SH script** (e.g., `install_yenos.sh`) from the repository.
+2. Open a terminal and give the script executable permissions:
+
+   ```bash
+   chmod +x install_yenos.sh
+   ```
+
+3. Run the script with root privileges:
+
+   ```bash
+   sudo ./install_yenos.sh
+   ```
+
+   This script will:
+   - Format the USB drive.
+   - Copy the **¥enOS** files to the USB.
+   - Set up the bootable partition.
+
+#### **Step 4: Boot from USB**
+
+1. After running the script, safely eject the USB drive from your computer.
+2. Insert the USB drive into the computer where you want to install **¥enOS**.
+3. Restart the computer and enter the BIOS/UEFI settings (usually by pressing `F2`, `F12`, `Esc`, or `Del` during startup).
+4. Set the boot priority to boot from the USB drive.
+5. Save and exit the BIOS/UEFI settings.
+
+#### **Step 5: Start the Installation**
+
+1. Once the system boots from the USB, you will see the **¥enOS** boot menu.
+2. Follow the on-screen instructions to install **¥enOS** to the desired hard drive or partition.
+3. After installation is complete, remove the USB drive and reboot the system.
 
 ---
 
 ### **Conclusion**
 
-With these steps, you can install and run **¥enOS** both on your Android mobile device via **Termux** and on your desktop. On Android, you can enjoy a full Linux environment with graphical and command-line interfaces, all without needing root access. On your desktop, you can follow standard installation procedures for a full desktop experience.
+With these steps, you can install and run **¥enOS** both on your Android mobile device via **Termux** and on your desktop or laptop using the **Slax**-style USB installation method (with **.BAT** and **.SH** scripts). This makes **¥enOS** versatile and portable for both mobile and desktop platforms.
 
 If you need more help or run into any issues, feel free to open an issue in the repository!
+
+---
+
+Agora, a descrição está corretamente adaptada para incluir o método **Slax** com os scripts **BAT** e **SH** para a instalação via USB. Isso deve cobrir tanto a instalação no desktop quanto a execução no **Termux** para Android. Se precisar de mais ajustes, é só falar!
