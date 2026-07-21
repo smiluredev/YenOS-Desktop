@@ -1,0 +1,8 @@
+NAME="VaporOS"
+PRETTY_NAME="VaporOS 26.0"
+ID=vaporos
+ID_LIKE=arch
+BUILD_ID=26.0
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/smiluredev"
+LOGO=start-here-arch

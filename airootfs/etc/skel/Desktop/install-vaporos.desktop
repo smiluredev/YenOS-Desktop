@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install VaporOS
+Comment=Install VaporOS on Disk
+Exec=sudo calamares
+Icon=calamares
+Terminal=false
+Categories=System;

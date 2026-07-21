@@ -1,0 +1,24 @@
+---
+componentName:  vaporos
+welcomeStyleCalamares:   true
+welcomeExpandingLogo:   true
+windowExpanding:    normal
+
+strings:
+    productName:         VaporOS 26.0
+    shortProductName:    VaporOS
+    version:             26.0
+    shortVersion:        26.0
+    versionedName:       VaporOS 26.0
+    shortVersionedName:  VaporOS 26
+    bootloaderEntryName: VaporOS
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "welcome.png"
+
+style:
+    sidebarBackground:    "#1A1B26"
+    sidebarText:          "#C0CAF5"
+    sidebarTextSelect:    "#7AA2F7"
